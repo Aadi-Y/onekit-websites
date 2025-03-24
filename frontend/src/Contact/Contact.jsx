@@ -26,7 +26,7 @@ const Contact = () => {
     setError("");
   
     try {
-      const response = await fetch("http://localhost:8000/send-contact-email", {
+      const response = await fetch("https://onekit-backend.vercel.app/send-contact-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
