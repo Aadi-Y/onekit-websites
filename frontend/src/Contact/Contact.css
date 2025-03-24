@@ -1,0 +1,66 @@
+.contact-part-main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-form-cont1{
+    margin-left: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    padding-right: 0;
+}
+
+.contact-cont1 h1{
+    font-size: 400%;
+}
+
+.contact-button-container button{
+    background-color: black;
+    color: white;
+    width: 65%;
+    height: 40%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.contact-button-container button:hover{
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    transition: 0.5s;
+}
+.contact-part1,button{
+    width: 60%;
+}
+.contact-cont1{
+    margin-right: 0;
+    margin-left: 10%;
+    width: 50%;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.contact-part1 {
+    font-size: 1rem;
+    width: 65%;
+    height: 40%;
+    padding: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    margin: 2%;
+    margin-left: 0;
+}
+
+.error-message{
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
