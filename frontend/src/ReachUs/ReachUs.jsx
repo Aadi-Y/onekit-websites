@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./ReachUs.css";
+import "./ReachUs.css";
 
 const ReachUs = () => {
   const [name, setName] = useState("");
