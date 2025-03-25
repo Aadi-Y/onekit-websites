@@ -1075,7 +1075,7 @@ h3 {
   }
   .index-division-7-1-1 img {
     grid-area: footerImage;
-    margin: 10px 95px;
+    margin-top: 10px;
   }
   .index-section-6 h2 {
     font-size: 5rem;
@@ -1086,6 +1086,9 @@ h3 {
   }
   .index-section-6-1 {
     margin-top: 100px;
+  }
+  .index-division-7-1-1 img {
+    margin-left: 100px;
   }
 }
 @media (max-width: 1000px) {
@@ -1177,6 +1180,12 @@ h3 {
   .index-section-6-1 {
     margin-top: 100px;
   }
+  .index-section-6{
+    margin-top: 0px;
+  }
+  .index-division-7-1-1 img {
+    margin-left: 100px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1257,6 +1266,9 @@ h3 {
   }
   .index-section-6-1 {
     margin-top: 50px;
+  }
+  .index-division-7-1-1 img {
+    margin-left: 100px;
   }
 }
 
@@ -1454,7 +1466,7 @@ h3 {
   }
   .index-division-7-1-1 img {
     grid-area: footerImage;
-    margin-left: 20vw;
+    margin-left: 25px;
   }
   .index-section-9 {
     flex-direction: column;

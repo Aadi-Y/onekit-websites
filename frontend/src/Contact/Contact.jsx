@@ -48,8 +48,8 @@ const Contact = () => {
   return (
     <div className="contact-part-main">
       <div className="contact-cont1">
-        <h1>Connect</h1>
-        <h1 style={{ fontWeight: 100 }}>with onekit</h1>
+        <p>Connect with</p>
+        <h1>onekit</h1>
       </div>
       <div className="contact-form-cont">
         <form onSubmit={handleSubmit}>
