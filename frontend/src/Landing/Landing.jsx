@@ -347,17 +347,17 @@ function Landing() {
                 transition={{ duration: 1, ease: "easeInOut" }}
                 viewport={{ amount: 0.3 }}
               >
-                Sanjeev has a successful entrepreneurial journey of over 5 years
-                under his belt. With expertise in scaling startups and building
-                strategies for top brands, he joined forces with Prateek who is
-                a highly sought-after designer in the country. He is known for
-                consistently coming up with innovative and original ideas,
-                making him a valuable asset in the creative industry. Sharing a
-                common vision and drive for success, the two founded onekit,
-                filling a gap in the market for a creative agency that
-                understands the importance of out-of-the-box thinking for
-                businesses. Together, they identified a problem in the
-                commercial space and came up with a solution.
+                Dharun Balaji has a successful entrepreneurial journey of over 5
+                years under his belt. With expertise in scaling startups and
+                building strategies for top brands, he joined forces with
+                Kishore, a highly sought-after designer in the country. Known
+                for consistently bringing innovative and original ideas to the
+                table, Kishore is a valuable asset in the creative industry.
+                Sharing a common vision and drive for success, the two founded
+                OneKit, addressing a gap in the market for a creative agency
+                that prioritizes out-of-the-box thinking for businesses.
+                Together, they identified a problem in the commercial space and
+                developed a solution.
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 100 }}
