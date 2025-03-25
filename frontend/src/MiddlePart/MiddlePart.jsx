@@ -111,7 +111,7 @@ function MiddlePart() {
               us to follow a new skin care routine, the influencers got us. Not
               just us, you too. These people are backed up by loyal audiences
               who relate themselves with them. So why still underestimate the
-              power of the new age word-of-mouth marketing? Let Grustl be the
+              power of the new age word-of-mouth marketing? Let onekit be the
               bridge between the brand and the influencer, so the influencer as
               well as the brand can skip the tedious process of outreach,
               building strategies, and running campaigns.
@@ -133,7 +133,7 @@ function MiddlePart() {
               Questions like what is the meaning of the brand, why does it
               exist, what is the market volume, how to win over competitors and
               hence forth must be addressed. Before vaguely coming up with
-              solutions we at Grustl do intense case studies and immense
+              solutions we at onekit do intense case studies and immense
               research to full-fill the problem of how the brand wants to be
               perceived and how the ideal customer perceives the brand.
             </p>
@@ -149,13 +149,13 @@ function MiddlePart() {
             transition={{ duration: 1, ease: "easeInOut" }}
             className="index-div-5-2-4"
           >
-            <h2>Borrow the Grustl Brains</h2>
+            <h2>Borrow the onekit Brains</h2>
             <p>
               More than time burnt on designing and planning content, we spend
               majority of our time on analysing the needs of brands. By just
               pointing out the North Star brand which is nothing but the brands
               those are similar to the brand that we want to create or become,
-              we at grustl can obtain insights and concepts to get you there to
+              we at onekit can obtain insights and concepts to get you there to
               where you there to where you wanted to be.
             </p>
           </motion.div>
