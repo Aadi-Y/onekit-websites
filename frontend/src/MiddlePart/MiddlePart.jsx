@@ -85,7 +85,7 @@ function MiddlePart() {
             transition={{ duration: 1, ease: "easeInOut" }}
             className="index-div-5-2-1"
           >
-            <h2>Not just your Ordinary Branding Agency</h2>
+            <h2 className="middlepart-h2">Not just your Ordinary Branding Agency</h2>
             <p>
               Your brand is your reputation and those small details and trends
               tend to make a huge impact on eyes, hearts and minds of the people
@@ -105,7 +105,7 @@ function MiddlePart() {
             transition={{ duration: 1, ease: "easeInOut" }}
             className="index-div-5-2-2"
           >
-            <h2>Underrated yet Extensive</h2>
+            <h2 className="middlepart-h2">Underrated yet Extensive</h2>
             <p>
               From using the referral code for an extra 20% discount to getting
               us to follow a new skin care routine, the influencers got us. Not
@@ -128,7 +128,7 @@ function MiddlePart() {
             transition={{ duration: 1, ease: "easeInOut" }}
             className="index-div-5-2-3"
           >
-            <h2>It’s high time to define your brand</h2>
+            <h2 className="middlepart-h2">It’s high time to define your brand</h2>
             <p>
               Questions like what is the meaning of the brand, why does it
               exist, what is the market volume, how to win over competitors and
@@ -149,7 +149,7 @@ function MiddlePart() {
             transition={{ duration: 1, ease: "easeInOut" }}
             className="index-div-5-2-4"
           >
-            <h2>Borrow the onekit Brains</h2>
+            <h2 className="middlepart-h2">Borrow the onekit Brains</h2>
             <p>
               More than time burnt on designing and planning content, we spend
               majority of our time on analysing the needs of brands. By just

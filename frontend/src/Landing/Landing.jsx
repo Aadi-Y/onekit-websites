@@ -19,6 +19,7 @@ import ContentCreater from "../assets/MediaContenter.jpg";
 import MarketingConsultant from "../assets/MarketingConsultant.jpg";
 import ThreeDArtist from "../assets/3dArtist.jpg";
 import CopyWriter from "../assets/CopyWriter.jpg";
+import SocialMediaManager from "../assets/SocialMediaManager.jpg";
 //Icons
 import { BsInstagram } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
@@ -321,14 +322,15 @@ function Landing() {
                 <img src={ThreeDArtist} alt="" />
                 <img src={Designer} alt="" />
                 <img src={ContentCreater} alt="" />
+                <img src={SocialMediaManager} alt="" />
                 <img src={Backend} alt="" />
-                <img src={Editor} alt="" />
+                
               </div>
               <div className="index-division-6-3">
+              <img src={Editor} alt="" />
                 <img src={MarketingConsultant} alt="" />
                 <img src={CopyWriter} alt="" />
                 <img src={Writer} alt="" />
-                <img src="/" alt="" />
                 <img src="/" alt="" />
                 <img src="/" alt="" />
               </div>
@@ -383,7 +385,7 @@ function Landing() {
             <motion.div
               initial={{ opacity: 0, y: 100 }}
               whileInView={scrollPos ? "down" && { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 1.5, ease: "linear" }}
+              transition={{ duration: 1, ease: "easeInOut" }}
               viewport={{ amount: 0.3 }}
             >
               <p className="join">Join the life at</p>
@@ -396,9 +398,13 @@ function Landing() {
               <motion.div
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={scrollPos ? "down" && { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
                 viewport={{ amount: 0.2 }}
                 whileHover={{ scale: 1.04 }}
+                transition={{ 
+                  opacity : {duration: 1, ease: "easeInOut" },
+                  y:{duration:1,ease:"easeInOut"},
+                  scale:{duration:0.4, ease:"easeInOut"}
+                }}
                 className="index-division-9-11"
               >
                 <div className="index-division-9-1-1">
@@ -424,9 +430,13 @@ function Landing() {
               <motion.div
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={scrollPos ? "down" && { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
                 viewport={{ amount: 0.2 }}
                 whileHover={{ scale: 1.04 }}
+                transition={{ 
+                  opacity : {duration: 1, ease: "easeInOut" },
+                  y:{duration:1,ease:"easeInOut"},
+                  scale:{duration:0.4, ease:"easeInOut"}
+                }}
                 className="index-division-9-12"
               >
                 <div className="index-division-9-1-3">
@@ -454,9 +464,13 @@ function Landing() {
               <motion.div
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={scrollPos ? "down" && { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
                 viewport={{ amount: 0.2 }}
                 whileHover={{ scale: 1.04 }}
+                transition={{ 
+                  opacity : {duration: 1, ease: "easeInOut" },
+                  y:{duration:1,ease:"easeInOut"},
+                  scale:{duration:0.4, ease:"easeInOut"}
+                }}
                 className="index-division-9-13"
               >
                 <div className="index-division-9-2-1">
@@ -482,9 +496,13 @@ function Landing() {
               <motion.div
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={scrollPos ? "down" && { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
                 viewport={{ amount: 0.2 }}
                 whileHover={{ scale: 1.04 }}
+                transition={{ 
+                  opacity : {duration: 1, ease: "easeInOut" },
+                  y:{duration:1,ease:"easeInOut"},
+                  scale:{duration:0.4, ease:"easeInOut"}
+                }}
                 className="index-division-9-14"
               >
                 <div className="index-division-9-2-3">

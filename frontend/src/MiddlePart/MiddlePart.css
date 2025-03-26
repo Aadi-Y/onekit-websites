@@ -113,21 +113,21 @@
   }
   .index-division-5-1 #one {
     grid-area: one;
-    padding-left: 10px;
+    margin-left: 20px;
     opacity: 1;
   }
   .index-division-5-1 #two {
     grid-area: four;
-    padding-left: 10px;
+    margin-left: 20px;
     opacity: 1;
   }
   .index-division-5-1 #three {
     grid-area: seven;
-    padding-left: 10px;
+    margin-left: 20px;
     opacity: 1;
   }
   .index-division-5-1 #four {
-    padding-left: 10px;
+    margin-left: 20px;
     opacity: 1;
   }
   .index-division-5-2 {
@@ -141,46 +141,50 @@
   }
   .index-div-5-2-1 h2 {
     grid-area: two;
-    padding-left: 10px;
+    margin-left: 20px;
   }
   .index-div-5-2-2 h2 {
     grid-area: five;
-    padding-left: 10px;
+    margin-left: 20px;
   }
   .index-div-5-2-3 h2 {
     grid-area: eight;
-    padding-left: 10px;
+    margin-left: 20px;
   }
   .index-div-5-2-4 h2 {
-    padding-left: 10px;
+    margin-left: 20px;
   }
   .index-div-5-2-1 p {
     grid-area: three;
     border-bottom: 1px solid black;
     padding-left: 10px;
     padding-bottom: 20px;
-    width: 100%;
+    width: 97%;
+    margin: 0 auto;
   }
   .index-div-5-2-2 p {
     grid-area: six;
     border-bottom: 1px solid black;
     padding-left: 10px;
     padding-bottom: 20px;
-    width: 100%;
+    width: 97%;
+    margin: 0 auto;
   }
   .index-div-5-2-3 p {
     grid-area: nine;
     border-bottom: 1px solid black;
     padding-left: 10px;
     padding-bottom: 20px;
-    width: 100%;
+    width: 97%;
+    margin: 0 auto;
   }
   .index-div-5-2-4 p {
     margin-bottom: 100px;
     border-bottom: 1px solid black;
     padding-left: 10px;
     padding-bottom: 20px;
-    width: 100%;
+    width: 97%;
+    margin: 0 auto;
   }
   .index-div-5-2-1 h2,
   .index-div-5-2-2 h2,
@@ -197,16 +201,32 @@
     font-size: 17px;
     text-align: justify;
   }
+  .middlepart-h2{
+    font-family: 'Nexa ExtraLight', sans-serif;
+  }
+  
+}
+@media (max-width:800px){
+  .index-division-5-1 ul li {
+    font-size: 1.8rem;
+  }
+  .index-division-5-2 h2 {
+    font-size: 1.3rem;
+  }
+  .index-division-5-2 p {
+    font-size: 15px;
+    padding-right: 25px;
+  }
 }
 @media (max-width: 548px) {
   .index-division-5-1 ul li {
     font-size: 2rem;
   }
   .index-division-5-2 h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .index-division-5-2 p {
     font-size: 14px;
-    margin-right: 10px;
+    padding-right: 25px;
   }
 }

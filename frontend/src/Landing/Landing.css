@@ -375,7 +375,7 @@ a{
   width: 90vw;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 25px;
   height: 80vh;
 }
 .index-division-9-1 {
@@ -408,11 +408,6 @@ a{
 .index-division-9-2-4 {
   transition: transform 0.4s ease-in-out;
   transform-origin: center;
-}
-
-.index-section-middlepart {
-  /* margin-top: 150px; */
-  /* margin-left: 150px; */
 }
 
 /* .index-division-9-11:hover .index-division-9-1-1,
