@@ -1467,7 +1467,7 @@ h3 {
   .index-section-9 {
     flex-direction: column;
     height: 170vh;
-    row-gap: 60px;
+    row-gap: 50px;
   }
   .index-division-9-1 {
     flex-direction: column;
@@ -1535,6 +1535,10 @@ h3 {
     /* flex: 1; */
     width: 49.5%;
     height: 75vh;
+  }
+  .index-section-1,.index-section-2,.index-section-3{
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
   }
 }
 @media (max-width: 400px) {
