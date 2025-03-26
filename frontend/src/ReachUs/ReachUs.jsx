@@ -29,20 +29,23 @@ const ReachUs = () => {
     setError("");
 
     try {
-      const response = await fetch("https://onekit-backend.vercel.app/send-reachUs-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          phone,
-          portfolio,
-          privacyPolicy,
-          futureOpportunities,
-        }),
-      });
+      const response = await fetch(
+        "https://onekit-backend.vercel.app/send-reachUs-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            phone,
+            portfolio,
+            privacyPolicy,
+            futureOpportunities,
+          }),
+        }
+      );
 
       if (response.ok) {
         alert("Email sent successfully!");

@@ -324,10 +324,9 @@ function Landing() {
                 <img src={ContentCreater} alt="" />
                 <img src={SocialMediaManager} alt="" />
                 <img src={Backend} alt="" />
-                
               </div>
               <div className="index-division-6-3">
-              <img src={Editor} alt="" />
+                <img src={Editor} alt="" />
                 <img src={MarketingConsultant} alt="" />
                 <img src={CopyWriter} alt="" />
                 <img src={Writer} alt="" />
@@ -400,10 +399,10 @@ function Landing() {
                 whileInView={scrollPos ? "down" && { opacity: 1, y: 0 } : {}}
                 viewport={{ amount: 0.2 }}
                 whileHover={{ scale: 1.04 }}
-                transition={{ 
-                  opacity : {duration: 1, ease: "easeInOut" },
-                  y:{duration:1,ease:"easeInOut"},
-                  scale:{duration:0.4, ease:"easeInOut"}
+                transition={{
+                  opacity: { duration: 1, ease: "easeInOut" },
+                  y: { duration: 1, ease: "easeInOut" },
+                  scale: { duration: 0.4, ease: "easeInOut" },
                 }}
                 className="index-division-9-11"
               >
@@ -432,10 +431,10 @@ function Landing() {
                 whileInView={scrollPos ? "down" && { opacity: 1, y: 0 } : {}}
                 viewport={{ amount: 0.2 }}
                 whileHover={{ scale: 1.04 }}
-                transition={{ 
-                  opacity : {duration: 1, ease: "easeInOut" },
-                  y:{duration:1,ease:"easeInOut"},
-                  scale:{duration:0.4, ease:"easeInOut"}
+                transition={{
+                  opacity: { duration: 1, ease: "easeInOut" },
+                  y: { duration: 1, ease: "easeInOut" },
+                  scale: { duration: 0.4, ease: "easeInOut" },
                 }}
                 className="index-division-9-12"
               >
@@ -466,10 +465,10 @@ function Landing() {
                 whileInView={scrollPos ? "down" && { opacity: 1, y: 0 } : {}}
                 viewport={{ amount: 0.2 }}
                 whileHover={{ scale: 1.04 }}
-                transition={{ 
-                  opacity : {duration: 1, ease: "easeInOut" },
-                  y:{duration:1,ease:"easeInOut"},
-                  scale:{duration:0.4, ease:"easeInOut"}
+                transition={{
+                  opacity: { duration: 1, ease: "easeInOut" },
+                  y: { duration: 1, ease: "easeInOut" },
+                  scale: { duration: 0.4, ease: "easeInOut" },
                 }}
                 className="index-division-9-13"
               >
@@ -498,10 +497,10 @@ function Landing() {
                 whileInView={scrollPos ? "down" && { opacity: 1, y: 0 } : {}}
                 viewport={{ amount: 0.2 }}
                 whileHover={{ scale: 1.04 }}
-                transition={{ 
-                  opacity : {duration: 1, ease: "easeInOut" },
-                  y:{duration:1,ease:"easeInOut"},
-                  scale:{duration:0.4, ease:"easeInOut"}
+                transition={{
+                  opacity: { duration: 1, ease: "easeInOut" },
+                  y: { duration: 1, ease: "easeInOut" },
+                  scale: { duration: 0.4, ease: "easeInOut" },
                 }}
                 className="index-division-9-14"
               >

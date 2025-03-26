@@ -24,16 +24,25 @@ const Contact = () => {
       return;
     }
     setError("");
-  
+
     try {
-      const response = await fetch("https://onekit-backend.vercel.app/send-contact-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ companyName, name, email, phone, requirements }),
-      });
-  
+      const response = await fetch(
+        "https://onekit-backend.vercel.app/send-contact-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            companyName,
+            name,
+            email,
+            phone,
+            requirements,
+          }),
+        }
+      );
+
       if (response.ok) {
         alert("Email sent successfully!");
       } else {
@@ -53,40 +62,40 @@ const Contact = () => {
       </div>
       <div className="contact-form-cont">
         <form onSubmit={handleSubmit}>
-          <input 
-            className="contact-part1" 
-            type="text" 
-            placeholder="Company Name" 
-            value={companyName} 
-            onChange={(e) => setCompanyName(e.target.value)} 
+          <input
+            className="contact-part1"
+            type="text"
+            placeholder="Company Name"
+            value={companyName}
+            onChange={(e) => setCompanyName(e.target.value)}
           />
-          <input 
-            className="contact-part1" 
-            type="text" 
-            placeholder="Name" 
-            value={name} 
-            onChange={(e) => setName(e.target.value)} 
+          <input
+            className="contact-part1"
+            type="text"
+            placeholder="Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
-          <input 
-            className="contact-part1" 
-            type="email" 
-            placeholder="Email" 
-            value={email} 
-            onChange={(e) => setEmail(e.target.value)} 
+          <input
+            className="contact-part1"
+            type="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
-          <input 
-            className="contact-part1" 
-            type="number" 
-            placeholder="Phone" 
-            value={phone} 
-            onChange={(e) => setPhone(e.target.value)} 
+          <input
+            className="contact-part1"
+            type="number"
+            placeholder="Phone"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
           />
-          <input 
-            className="contact-part1" 
-            type="text" 
-            placeholder="Enter your requirements" 
-            value={requirements} 
-            onChange={(e) => setRequirements(e.target.value)} 
+          <input
+            className="contact-part1"
+            type="text"
+            placeholder="Enter your requirements"
+            value={requirements}
+            onChange={(e) => setRequirements(e.target.value)}
           />
           {error && <p className="error-message">{error}</p>}
           <div className="contact-button-container">

@@ -8,40 +8,38 @@ function MiddlePart() {
   useEffect(() => {
     const sections = document.querySelectorAll(".index-division-5-2 > div");
     const listItems = document.querySelectorAll(".index-division-5-1 ul li");
-  
+
     const checkAlignment = () => {
       let activeId = null;
-  
+
       sections.forEach((section, index) => {
         const sectionRect = section.getBoundingClientRect();
         const listItem = listItems[index]; // Matching `li` for each `div`
-  
+
         if (listItem) {
           const listItemRect = listItem.getBoundingClientRect();
-  
+
           // Check if the top positions of section and list item are nearly the same
           if (Math.abs(sectionRect.top - listItemRect.top) < 10) {
             activeId = section.getAttribute("id");
           }
         }
       });
-  
+
       if (activeId) {
         setActiveSection(activeId);
       }
     };
-  
+
     window.addEventListener("scroll", checkAlignment);
     window.addEventListener("resize", checkAlignment);
     checkAlignment(); // Run initially
-  
+
     return () => {
       window.removeEventListener("scroll", checkAlignment);
       window.removeEventListener("resize", checkAlignment);
     };
   }, []);
-  
-  
 
   return (
     <>
@@ -85,7 +83,9 @@ function MiddlePart() {
             transition={{ duration: 1, ease: "easeInOut" }}
             className="index-div-5-2-1"
           >
-            <h2 className="middlepart-h2">Not just your Ordinary Branding Agency</h2>
+            <h2 className="middlepart-h2">
+              Not just your Ordinary Branding Agency
+            </h2>
             <p>
               Your brand is your reputation and those small details and trends
               tend to make a huge impact on eyes, hearts and minds of the people
@@ -128,7 +128,9 @@ function MiddlePart() {
             transition={{ duration: 1, ease: "easeInOut" }}
             className="index-div-5-2-3"
           >
-            <h2 className="middlepart-h2">It’s high time to define your brand</h2>
+            <h2 className="middlepart-h2">
+              It’s high time to define your brand
+            </h2>
             <p>
               Questions like what is the meaning of the brand, why does it
               exist, what is the market volume, how to win over competitors and

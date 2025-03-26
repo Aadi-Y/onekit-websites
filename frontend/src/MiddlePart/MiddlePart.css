@@ -201,12 +201,11 @@
     font-size: 17px;
     text-align: justify;
   }
-  .middlepart-h2{
-    font-family: 'Nexa ExtraLight', sans-serif;
+  .middlepart-h2 {
+    font-family: "Nexa ExtraLight", sans-serif;
   }
-  
 }
-@media (max-width:800px){
+@media (max-width: 800px) {
   .index-division-5-1 ul li {
     font-size: 1.8rem;
   }
@@ -220,13 +219,14 @@
 }
 @media (max-width: 548px) {
   .index-division-5-1 ul li {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .index-division-5-2 h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .index-division-5-2 p {
-    font-size: 14px;
-    padding-right: 25px;
+    font-size: 13px;
+    margin-right: 20px;
+    margin-left: 10px;
   }
 }
